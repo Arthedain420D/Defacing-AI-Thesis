@@ -1,44 +1,67 @@
+
 import dicom2jpg
-import numpy
-import os
 
+dicom_img_01 = "E:/Thesis/Images/DICOM/test/1-089.dcm"
 
-origin = r"E:\Thesis\Images\DICOM"
-target_root = 'E:\Thesis\Images\PNG'
+dicom2jpg.dicom2jpg(dicom_img_01)
 
-dicom2jpg.dicom2png(dicom_dir)  
+dicom_dir = "C:/Users/User/Desktop/Test/DICOM"
 
-dicom2jpg.dicom2jpg(origin, target_root=None, anonymous=False, multiprocessing=True)
+op_dir = "C:/Users/User/Desktop/Test/PNG"
 
-dicom2jpg.dicom2img(origin)
+dicom2jpg.dicom2png(dicom_dir, op_dir)
 
-dicom2jpg.io2img(dicomIO)
 
 # =============================================================================
-# def convertImg(dicomImage):
-#     print("Image: " + dicomImage)
-#     outputImg = dicomImage.split('.')
-# dicom2jpg.dicom2png(origin, target_root=None, anonymous=False, multiprocessing=True)    
+# import dicom2jpg
 # 
-#     convertedImg = os.path.join(folder_path, outputImg[0] + '.jpg')
-#     return convertedImg
-# =============================================================================
-
-dicom2jpg.dicom2png(dicom_dir) 
-
-# =============================================================================
-# def rename(): 
-#     i = 0
+# dicom_img_01 = "E:\Thesis\Images\DICOM\D2\1-089.dcm"
 # 
-#     for filename in os.listdir(folder_path): 
-#         dst =str(i) + ".png"
-#         src =destinate_path + filename + ".png"
-#         dst =destinate_path + dst 
-#           
-#         # rename() function will 
-#         # rename all the files 
-#         os.rename(src, dst) 
-#         i += 1
+# dicom2jpg.dicom2jpg(dicom_img_01)
+# 
+# dicom_dir = "E:\Thesis\Images\DICOM"
+# 
+# op_dir = 'E:\Thesis\Images\PNG'
+# 
+# dicom2jpg.dicom2png(dicom_dir, op_dir)
 # =============================================================================
 
-# rename()
+# =============================================================================
+# import dicom2jpg
+# 
+# dicom_img_01 = "C:\User\Desktop\Test\DICOM\test.dcm"
+# 
+# dicom2jpg.dicom2jpg(dicom_img_01)
+# 
+# dicom_dir = "C:\User\Desktop\Test\DICOM"
+# 
+# op_dir = "C:\User\Desktop\Test\PNG"
+# 
+# dicom2jpg.dicom2png(dicom_dir, op_dir)
+# =============================================================================
+
+# =============================================================================
+# import dicom2jpg
+# 
+# dicom_img_01 = "C:\Users\User\Desktop\Test\DICOM\test.dcm"
+# 
+# dicom2jpg.dicom2jpg(dicom_img_01)
+# 
+# dicom_dir = "C:\Users\User\Desktop\Test\DICOM"
+# 
+# op_dir = "C:\Users\User\Desktop\Test\PNG"
+# 
+# dicom2jpg.dicom2png(dicom_dir, op_dir)
+# =============================================================================
+
+# =============================================================================
+# dicom_img_01 = "C:/Users/User/Desktop/Test/DICOM/test.dcm"
+# 
+# dicom2jpg.dicom2jpg(dicom_img_01)
+# 
+# dicom_dir = "C:/Users/User/Desktop/Test/DICOM"
+# 
+# op_dir = "C:/Users/User/Desktop/Test/PNG"
+# 
+# dicom2jpg.dicom2png(dicom_dir, op_dir)
+# =============================================================================
