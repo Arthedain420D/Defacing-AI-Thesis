@@ -1,0 +1,6 @@
+#using jupyter notebook
+
+import dicom2jpg
+fpath = r'E:/Thesis/Images/DICOM'
+
+dicom2jpg.dicom2png(fpath)
